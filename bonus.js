@@ -1,11 +1,11 @@
-let bicycle = 11999;
-let ball = 1599;
-let shorts = 699;
-let socks = 169;
+const bicycle = 11999;
+const ball = 1590;
+const shorts = 699;
+const socks = 16769;
 
-let bonusStep = 1000;
-let bonusSize = 100;
+const bonusStep = 1000;
+const bonusSize = 100;
 
-let bonus = Math.floor((bicycle + ball + shorts + socks)/bonusStep)*bonusSize; // Mf - rounding down
+const bonus = Math.floor((bicycle + ball + shorts + socks) / bonusStep) * bonusSize; // Mf - rounding down
 
 console.log("Размер бонуса: " + bonus);
